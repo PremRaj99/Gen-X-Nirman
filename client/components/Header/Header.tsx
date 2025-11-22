@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <>
       {/* HEADER */}
-      <header className="w-full p-4 flex justify-between items-center text-white">
+      <header className="w-full p-4 flex justify-between items-center">
         <h1 className="text-3xl tracking-tighter font-extrabold">GEN-X NIRMAN</h1>
 
         {/* Desktop Nav */}
