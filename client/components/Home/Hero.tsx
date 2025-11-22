@@ -12,7 +12,7 @@ export default function Hero() {
       bg-[url('/bg.jpg')] 
       bg-cover bg-center 
       bg-no-repeat
-      h-screen"
+      md:h-screen h-[90vh]"
     >
       <div className="absolute inset-0 bg-linear-to-b from-transparent to-black mix-blend-multiply"></div>
       <Header />
