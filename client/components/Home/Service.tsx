@@ -26,7 +26,7 @@ export default function Service() {
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Left Image */}
-          <div className="relative w-full h-[600px] rounded-xl overflow-hidden">
+          <div className="relative w-full md:h-[600px] h-96 rounded-xl overflow-hidden">
             <Image
               src="/bg.jpg" // replace with your image
               alt="service image"

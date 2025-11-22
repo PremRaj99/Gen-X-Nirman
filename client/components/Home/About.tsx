@@ -62,7 +62,7 @@ export default function About() {
         {/* RIGHT IMAGE GRID */}
         <div className="grid grid-cols-2 gap-4 h-full">
           {/* Left tall image */}
-          <div className="relative h-[700px] rounded-2xl overflow-hidden">
+          <div className="relative md:h-[700px] h-96 rounded-2xl overflow-hidden">
             <Image
               src="/bg.jpg"
               alt="construction"
