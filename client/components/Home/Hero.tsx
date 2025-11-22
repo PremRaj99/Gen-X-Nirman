@@ -16,7 +16,7 @@ export default function Hero() {
     >
       <div className="absolute inset-0 bg-linear-to-b from-transparent to-black mix-blend-multiply"></div>
       <Header />
-      <div className="relative z-10 w-full h-[90%] flex flex-col md:flex-row justify-end md:justify-between items-end text-white p-12 md:py-24 gap-6">
+      <div className="relative z-10 w-full h-[90%] flex flex-col md:flex-row justify-end md:justify-between items-end text-white md:px-12 py-12 px-4 md:py-24 gap-6">
         <h1 className="text-6xl md:text-8xl font-semibold tracking-tighter font-heading max-w-lg">
           BUILDING THE FUTURE
         </h1>
